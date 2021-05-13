@@ -4,10 +4,72 @@
 <title>Sam Hughes - Recent Activities</title>
 <style>
 
+
 body {
 	background-color: #D1F6FF;
 	font-size: 28px;
 }
+
+#top-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 50px;
+  padding-left: 50px;
+  overflow: hidden;
+  background-color: #333;
+  border: 1px solid #e7e7e7;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#top-menu li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+#top-menu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  -webkit-transition: .5s all ease-out;
+	-moz-transition: .5s all ease-out;
+   transition: .5s all ease-out;
+}
+
+#top-menu li.active a {
+    background-color:#00ccff;
+}
+
+#top-menu a:hover {
+    color: #D1F6FF;
+}
+
+#top-menu li:last-child {
+  border-right: none;
+}
+
+
+#about {
+    position: static;
+}
+
+#publications {
+    position: static;
+}
+
+#talks {
+    position: static;
+}
+
+#contact {
+    position: static;
+}
+
 
 .centre {
   text-align: center;
@@ -55,10 +117,6 @@ a:hover {
   padding: 3px;
 }
 
-li:not(:last-child) {
-    margin-bottom: 10px;
-}
-
 .hitcounter {display: none;}
 
 </style>
@@ -68,11 +126,21 @@ li:not(:last-child) {
 </head>
 
 
+<body>
+
+<ul id="top-menu">
+	<li><a href="./">Home</a></li>
+	<li><a href="research.html">Research</a></li>
+	<li><a href="talks.html">Selected talks</a></li>
+	<li><a href="contact.html">Contact</a></li>
+	<li><a href="activities.html">Recent activities</a></li>
+</ul>
+
+
 <div class="padd">
-<a href="./">Return to homepage.</a>
-<hr>
+
 <br><br>
-<h1>Activities</h1>
+
 <h2>2021:</h2>
 <hr>
 <ul>
