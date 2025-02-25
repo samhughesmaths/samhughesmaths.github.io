@@ -147,8 +147,20 @@ a:hover {
 <body>
 
 <div class="centre">
-<div class="clearfix">
-<img src="Photos/PhotoNew.jpg", height="200", align="right">
+<div class="clearfix" id="imageDiv">
+
+
+<script type="text/javascript">
+var val = a = Math.floor((Math.random() * 4) + 1),
+	src = 'Photos/Rand/' + val +'.jpg',
+	img = document.createElement('img');
+	img.src = src;
+	img.style.height = '200px'
+	img.align="right"
+	document.getElementById('imageDiv').appendChild(img);
+</script>
+<!--Thanks to Rob Kropholler for the above script-->
+
   <h1><span>Sam Hughes</span></h1>
   <h3>Recent Activities</h3>
 </div>
