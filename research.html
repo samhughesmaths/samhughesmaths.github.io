@@ -145,13 +145,13 @@ a:hover {
 </head>
 
 
-<body onload="['m1','m2','m3','m4', 'm5','m6',
+<body onload="['m1','m2','m3','m4', 'm5','m6', 'm7',
 		'a1', 'a2', 'a3', 'a4', 
-	      'a5', 'a6', 'a7', 'a8','a9','a10','a11',
+	      'a5', 'a6', 'a7', 'a8', 'a9','a10','a11',
 	      'a12', 'a13', 'a14','a15','a16','a17',
 	      'a18', 'a19', 'a20','a21', 'a22',
 	       'a23', 'a24', 'a25', 'a26','a27',
-	       'a28', 'a29', 'a30'].forEach(hide)">
+	       'a28', 'a29', 'a30', 'a31'].forEach(hide)">
 
 <div class="centre">
 <div class="clearfix" id="imageDiv">
@@ -185,10 +185,35 @@ var val = a = Math.floor((Math.random() * 4) + 1),
 <div class="padd">
 Here is a list of my preprints, publications, and other writing (click the titles for abstracts).  
 Links to my collaborators websites can be found at the bottom of the page. 
+<br>
+Click to jump to 
+<a href="#Preprints">preprints</a>, 
+<a href="#Pubs">publications</a>,
+<a href="#Surveys">surveys</a>,
+<a href="#Misc">miscellaneous</a>,
+or <a href="#Collaborators">collaborators</a>.
+
+
 	<br><br>
 <hr>
+<div id="Preprints"></div>
 	<h3>Preprints</h3>
+	
 <ul>
+
+<li><div onclick="displayabs('a31')">(With François Dahmani, Monika Kudlinska, and Nicholas Touikan)
+Conjugacy separability in polynomially growing free-by-cyclic groups.</div>
+<a href="https://arxiv.org/abs/2506.06229">arXiv</a>, 
+<a href="Preprints/2025FDSHMKNT.pdf">pdf</a>.
+
+<div class="padl"><div class="bord", id="a31">
+	We show that free-by-cyclic groups with polynomially growing monodromies are conjugacy separable 
+	and that double cosets of cyclic subgroups are separable. As a corollary of our results, we show 
+	that the outer automorphism group of every polynomially growing free-by-cyclic group is residually finite.
+</div></div>
+<br></li>
+
+
 
 <li><div onclick="displayabs('a30')">(With Natalia Cadavid-Aguilar, Daniel Cohen, Jesús González, and Lucile Vandembroucq)
 On the higher topological complexity of manifolds with abelian fundamental group.</div>
@@ -201,6 +226,8 @@ On the higher topological complexity of manifolds with abelian fundamental group
 <br></li>
 
 
+
+
 <li><div onclick="displayabs('a29')">(With Phillip Möller and Olga Varghese)
 Profinite properties of Coxeter groups (appendix by Sam P. Fisher and Sam Hughes).</div>
 <a href="https://arxiv.org/abs/2505.08701">arXiv</a>, 
@@ -210,6 +237,9 @@ Profinite properties of Coxeter groups (appendix by Sam P. Fisher and Sam Hughes
 	We prove a number of results about profinite completions of Coxeter groups. For example we prove Coxeter groups are good in the sense of Serre and that various splittings of Coxeter groups arising from actions on trees are detected by the profinite completion. As an application we prove a number of families Coxeter groups are profinitely rigid amongst Coxeter groups. We also prove that Gromov-hyperbolic FC type, large type, and odd Coxeter groups are almost profinitely rigid amongst Coxeter groups. In the appendix, Sam Fisher and Sam Hughes show that the Atiyah Conjecture holds for all Coxeter groups, and that \(\ell^2\)-Betti numbers and their positive characteristic analogues are profinite invariants of Coxeter groups and of virtually compact special groups.
 </div></div>
 <br></li>
+
+
+
 
 <li><div onclick="displayabs('a28')">(With Claudio Llosa Isenrich, Pierre Py, Matthew Stover, and Stefano Vidussi)
 Profinite rigidity of Kähler groups: Riemann surfaces and subdirect products, <i>submitted</i>.</div>
@@ -322,27 +352,6 @@ We prove that the virtually cyclic (geometric) dimension of the finite index con
 	
 
 
-
-
-
-
-<li><div onclick="displayabs('a19')">(With Motiejus Valiunas)
-A note on asynchronously automatic groups and notions of non-positive curvature, <i>submitted</i>.</div>
-
-<a href="https://arxiv.org/abs/2304.01832">arXiv</a>, 
-<a href="Preprints/2023SHMV.pdf">pdf</a>.
-
-<div class="padl"><div class="bord", id="a19">
-We prove groups acting cocompactly on locally finite trees with hyperbolic vertex stabilisers are 
-	asynchronously automatic. Combining this with previous work of the authors we obtain an 
-	example of a group satisfying several non-positive curvature properties (being a 
-	\(\mathrm{CAT}(0)\) group, an injective group, a hierarchically hyperbolic group, 
-	and having quadratic Dehn function) which is asynchronously automatic but not biautomatic.
-</div></div>
-<br></li>
-	
-
-	
 <li> <div onclick="displayabs('a9')">Irreducible lattices fibring over the circle, <i>submitted</i>.</div>
 
 <a href="https://arxiv.org/abs/2201.06525">arXiv</a>, 
@@ -371,11 +380,38 @@ We study lattices acting on \(\mathrm{CAT}(0)\) spaces via their commensurated s
 <br></li>
 
 </ul>
+<br>
 
 
+
+	<div id="Pubs"></div>
+Click to jump to 
+<a href="#Preprints">preprints</a>, 
+<a href="#Pubs">publications</a>,
+<a href="#Surveys">surveys</a>,
+<a href="#Misc">miscellaneous</a>,
+or <a href="#Collaborators">collaborators</a>.
+	<br>
 	
 	<h3>Publications</h3>
+	
 <ol reversed>
+
+
+<li><div onclick="displayabs('a19')">(With Motiejus Valiunas)
+A note on asynchronously automatic groups and notions of non-positive curvature, to appear in <i>Algebraic and Geometric Topology</i>.</div>
+
+<a href="https://arxiv.org/abs/2304.01832">arXiv</a>, 
+<a href="Preprints/2023SHMV.pdf">pdf</a>.
+
+<div class="padl"><div class="bord", id="a19">
+We prove groups acting cocompactly on locally finite trees with hyperbolic vertex stabilisers are 
+	asynchronously automatic. Combining this with previous work of the authors we obtain an 
+	example of a group satisfying several non-positive curvature properties (being a 
+	\(\mathrm{CAT}(0)\) group, an injective group, a hierarchically hyperbolic group, 
+	and having quadratic Dehn function) which is asynchronously automatic but not biautomatic.
+</div></div>
+<br></li>
 
 <li><div onclick="displayabs('a27')">(With Benjamin Brück, Dawid Kielak and Piotr Mizerka)
 Non-vanishing unitary cohomology of low-rank integral special linear groups, to appear in <i> International Mathematics Research Notices IMRN</i>.</div>
@@ -717,14 +753,23 @@ The character table of a sharply \(5\)-transitive subgroup of the alternating gr
 </ol>
 
 
-
-	
+<div id="Surveys"></div>
+<br>
+Click to jump to 
+<a href="#Preprints">preprints</a>, 
+<a href="#Pubs">publications</a>,
+<a href="#Surveys">surveys</a>,
+<a href="#Misc">miscellaneous</a>,
+or <a href="#Collaborators">collaborators</a>.
+	<br>
 	<h3>Surveys</h3>
+
 <ul>
 <li><div onclick="displayabs('m6')">(With Naomi Andrew, Sebastian Hensel, and Richard D. Wade)
- Problems on handlebody groups,  <i>submitted</i>.</div>
+ Problems on handlebody groups, to appear in <i>Royal Society Open Science</i>.</div>
 
-<a href="https://arxiv.org/abs/2502.21177">arXiv</a>.
+<a href="https://arxiv.org/abs/2502.21177">arXiv</a>
+<a href="Preprints/2025NASHSHRDW.pdf">pdf</a>.
 
 <div class="padl"><div class="bord", id="m6">
 	We survey a number of constructions and open problems related to the handlebody group, with a focus on recent trends in geometric group theory, (co)homological properties, and its relationship to outer automorphism groups of free groups. We also briefly describe how the <i>cheap α-rebuilding property</i> of Abert, Bergeron, Fraczyk, and Gaboriau can be applied using the disc complex to deduce results about the homology growth of the handlebody group.
@@ -751,9 +796,32 @@ This survey studies pairs \((G,\mathcal{P})\) with \(G\) a finitely generated gr
 </ul>
 
 
+
+
+
+<div id="Misc"></div>
+<br>
+Click to jump to 
+<a href="#Preprints">preprints</a>, 
+<a href="#Pubs">publications</a>,
+<a href="#Surveys">surveys</a>,
+<a href="#Misc">miscellaneous</a>,
+or <a href="#Collaborators">collaborators</a>.
+<br>
 <h3>Miscellaneous</h3>
 
 <ul>
+<li><div onclick="displayabs('m7')">Ziggy Stardust.  <i>Oxford Mountaineering Journal,</i> 2024.</div>
+
+<a href="Misc/ZiggyStardust.pdf">pdf</a>
+
+<div class="padl"><div class="bord", id="m7">
+	A description of the route `Ziggy Stardust' in La Pedriza.
+</div></div>
+<br></li>
+
+
+
 <li><div onclick="displayabs('m5')">Mallorca: Deep water and the Albahida ridge.  <i>Oxford Mountaineering Journal,</i> 2023.</div>
 
 <a href="Misc/Mallorca.pdf">pdf</a>
@@ -799,7 +867,17 @@ The ever-evolving PhD environment in the mathematical sciences encourages a high
 <br></li>
 </ul>
 
-	
+
+
+<div id="Collaborators"></div>
+<br>
+Click to jump to 
+<a href="#Preprints">preprints</a>, 
+<a href="#Pubs">publications</a>,
+<a href="#Surveys">surveys</a>,
+<a href="#Misc">miscellaneous</a>,
+or <a href="#Collaborators">collaborators</a>.
+<br>
 <h3>Collaborators</h3>
 <ul>
 	<li> <a href="https://naomigandrew.wordpress.com/">Naomi Andrew</a> (4)</li>
@@ -809,6 +887,7 @@ The ever-evolving PhD environment in the mathematical sciences encourages a high
 	<li> <a href="https://chatterj.perso.math.cnrs.fr/index.html">Indira L. Chatterji</a> (1)</li>
 	<li> <a href="https://www.math.lsu.edu/~cohen/">Daniel C. Cohen</a> (1)</li>
 	<li> <a href="https://topologyandgrouptheory.wordpress.com/">Samuel M. Corson</a> (2)</li>
+	<li> <a href="https://www-fourier.ujf-grenoble.fr/~dahmani/">François Dahmani</a> (1)</li>
 	<li> <a href="https://sampfisher.github.io/">Sam P. Fisher</a> (2)</li>
 	<li> <a href="https://nickpgill.github.io/">Nick Gill</a> (1)</li>
 	<li> <a href="https://www.math.cinvestav.mx/index.php/jgonzalez">Jesús González</a> (1)</li>
@@ -816,7 +895,7 @@ The ever-evolving PhD environment in the mathematical sciences encourages a high
 	<li> <a href="https://www.mathematik.uni-muenchen.de/~hensel/index_en.php">Sebastian Hensel</a> (1)</li>
 	<li> <a href="https://people.maths.ox.ac.uk/kielak/">Dawid Kielak </a> (4)</li>
 	<li> <a href="https://www.southampton.ac.uk/maths/about/staff/phk1e12.page">Peter H. Kropholler</a> (2)</li>
-	<li> <a href="https://sites.google.com/site/monkudlinska/">Monika Kudlinska</a> (3)</li>
+	<li> <a href="https://sites.google.com/site/monkudlinska/">Monika Kudlinska</a> (4)</li>
 	<li> <a href="https://www.southampton.ac.uk/people/5x7v5y/professor-ian-leary/">Ian J. Leary</a> (2)</li>
 	<li> <a href="https://www.math.kit.edu/user/llosa/index.html">Claudio Llosa Isenrich</a> (1)</li>
 	<li> <a href="https://kevinlimath.wordpress.com/">Kevin Li</a> (1)</li>
@@ -830,6 +909,7 @@ The ever-evolving PhD environment in the mathematical sciences encourages a high
 	<li> <a href="https://sites.google.com/im.unam.mx/luisjorgesanchezsaldana/">Luis Jorge Sánchez Saldaña</a> (3)</li>
 	<li> <a href="https://davidespriano.com">Davide Spriano</a> (1) </li>
 	<li> <a href="https://sites.temple.edu/mstover/">Matthew Stover</a> (1)</li>
+	<li> <a href="https://ntouikan.ext.unb.ca/">Nicholas Touikan</a> (1)</li>
 	<li> <a href="https://valiunas.wordpress.com/">Motiejus Valiunas</a> (2)</li>
 	<li> <a href="https://w3.math.uminho.pt/~lucile/">Lucile Vandembroucq</a> (1)</li>
 	<li> <a href="https://sites.google.com/view/olga-varghese">Olga Varghese</a> (3)</li>
