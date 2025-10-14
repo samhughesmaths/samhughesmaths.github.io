@@ -1,59 +1,136 @@
 
 <!DOCTYPE html>
 <html lang="en">
+<script>function displayabs(y) {
+		var x = document.getElementById(y);
+		if (x.style.display == 'block') {
+			x.style.display = 'none';
+		} else {
+			x.style.display = 'block';
+		}
+	}
+	function hide(y) {
+			var x = document.getElementById(y);
+			x.style.display = 'none';
+		}
+</script>
     <head>
+ 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Geometric Group Theory Seminar</title>
+        
+    <style>
+    .bord {
+  border: solid black;
+  border-width: 0px 0px 1px 0px;
+  display: inline-block;
+  padding: 3px;
+  font-size: 10pt;
+}
+    </style
     </head>
-    <body>
+<body onload="['221025', '291025','051125','121125','191125','261125','101225','171225','070126','140126','210126','280126','040226'].forEach(hide)">
         <h1>Oberseminar Geometric Group Theory</h1>
 
         <h2>Winter semester 2025/26</h2>
         <p>Wednesdays 11:00-12:00 in N0.008, coffee from 10:30 in the Hausdorff room.</p>
         <p>Organizer: Sam Hughes.</p>
+        <p><i>Click speaker names for abstracts</i></p>
         <ul>
             <li>
-                <p>Elia Fioravanti (Karlsruher Institut für Technologie) 22.10.25</p>
+                <div onclick="displayabs('221025')">Elia Fioravanti (Karlsruher Institut für Technologie) 22.10.25</div>
+               <div class="bord", id="221025">
+                <b>Automorphisms of virtually special groups</b><br>
+               For which families of finitely generated groups G are automorphisms "tame"? For instance, one can wonder whether Out(G) is finitely generated, or whether the stretch factors of the automorphisms of G are algebraic integers. Following breakthroughs of Rips and Sela in the 90s, automorphisms of hyperbolic groups are known to satisfy both of these forms of tameness, but much less is known on automorphisms of more general non-positively curved groups. We show that automorphisms of compact special groups (in the sense of Haglund and Wise) also satisfy the same two forms of tameness. Proofs rely on non-small R-trees and a new JSJ decomposition over centralisers.
+               </div><br>
             </li>
             <li>
-		<p>Giada Serafini (Heinrich-Heine-Universität Düsseldorf) 29.10.25</p>
+		<div onclick="displayabs('291025')">Giada Serafini (Heinrich-Heine-Universität Düsseldorf) 29.10.25</div>
+		<div class="bord", id="291025">
+		<b>Title</b><br>
+		Abstract
+		</div><br>
             </li>
             <li>
-		<p>Motiejus Valiunas (Uniwersytet Wrocławski) 5.11.25</p>
+		<div onclick="displayabs('051125')">Motiejus Valiunas (Uniwersytet Wrocławski) 5.11.25</div>
+		<div class="bord", id="051125">
+		<b>Title</b><br>
+		Abstract
+		</div><br>
             </li>
             <li>
-		<p>Jean Raimbault (Aix Marseille Université) 12.11.25</p>
+		<div onclick="displayabs('121125')">Jean Raimbault (Aix Marseille Université) 12.11.25</div>
+		<div class="bord", id="121125">
+		<b>Title</b><br>
+		Abstract
+		</div><br>
             </li>
             <li>
-		<p>Waltraud Lederle (Universität Bielefeld)> 19.11.25</p>
+		<div onclick="displayabs('191125')">Waltraud Lederle (Universität Bielefeld)> 19.11.25</div>
+		<div class="bord", id="191125">
+		<b>Title</b><br>
+		Abstract
+		</div><br>
             </li>
             <li>
-		<p>Ian Leary (University of Southampton) 26.11.25</p>
+		<div onclick="displayabs('261125')">Ian Leary (University of Southampton) 26.11.25</div>
+		<div class="bord", id="261125">
+		<b>Title</b><br>
+		Abstract
+		</div><br>
             </li>
             <li>
 		<p>No talk (dies academicus), 3.12.25</p>
             </li>
             <li>
-		<p>Naomi Andrew (Université Paris Saclay) 10.12.25</p>
+		<div onclick="displayabs('101225')">Naomi Andrew (Université Paris Saclay) 10.12.25</div>
+		<div class="bord", id="101225">
+		<b>Title</b><br>
+		Abstract
+		</div><br>
             </li>
             <li>
-		<p>Alessandro Sisto (Oilthigh Heriot-Watt), 17.12.25</p>
+		<div onclick="displayabs('171225')">Alessandro Sisto (Oilthigh Heriot-Watt), 17.12.25</div>
+		<div class="bord", id="171225">
+		<b>Title</b><br>
+		Abstract
+		</div><br>
             </li>
             <li>
-		<p>Xiyan Zhong (MPI Bonn) 7.1.26</p>
+		<div onclick="displayabs('070126')">Xiyan Zhong (MPI Bonn) 7.1.26</div>
+		<div class="bord", id="070126">
+		<b>Title</b><br>
+		Abstract
+		</div><br>
             </li>
             <li>
-		<p>Piotr Mirzeka (Uniwersytet im. Adama Mickiewicza w Poznaniu) 14.1.26</p>
+		<div onclick="displayabs('140126')">Piotr Mirzeka (Uniwersytet im. Adama Mickiewicza w Poznaniu) 14.1.26</div>
+		<div class="bord", id="140126">
+		<b>Title</b><br>
+		Abstract
+		</div><br>
             </li>
             <li>
-		<p>Giorgio Mangioni (Oilthigh Heriot-Watt) 21.1.26</p>
+		<div onclick="displayabs('210126')">Giorgio Mangioni (Oilthigh Heriot-Watt) 21.1.26</div>
+		<div class="bord", id="210126">
+		<b>Title</b><br>
+		Abstract
+		</div><br>
             </li>
             <li>
-		<p>Martin Bridson <i>tbc</i> (University of Oxford) 28.1.26</p>
+		<div onclick="displayabs('280126')">Martin Bridson <i>tbc</i> (University of Oxford) 28.1.26</div>
+		<div class="bord", id="280126">
+		<b>Title</b><br>
+		Abstract
+		</div><br>
             </li>
             <li>
-		<p>Cornelia Drutu <i>tbc</i> (University of Oxford/MPI Bonn) 4.2.26</p>
+		<div onclick="displayabs('040226')">Cornelia Drutu <i>tbc</i> (University of Oxford/MPI Bonn) 4.2.26</div>
+		<div class="bord", id="040226">
+		<b>Title</b><br>
+		Abstract
+		</div><br>
             </li>
         </ul>
 
