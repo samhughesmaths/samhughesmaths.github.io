@@ -20,3 +20,8 @@ Processing '/etc/joe/editorrc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Mon Oct 27 10:23:58 2025
+*** JOE was aborted because the terminal closed
+
+*** File '/home/user/Documents/GIT/samhughesmaths.github.io/.git/MERGE_MSG'
